@@ -1,0 +1,28 @@
+<html>
+<header>
+  <link rel="stylesheet" href="/themes/{$THEMENAME}/styles.css">
+  <link rel="stylesheet" href="/themes/{$THEMENAME}/help.css">
+</header>
+<body>
+<h1>{$node_name}</h1>
+
+<p>
+	Welcome to Visual Dialplan.
+</p>
+
+<br/>
+
+<p>
+	Visual Dialplan Elastix Edition is innovative visual modeling platform that enables Elastix users to create, maintain and test dialplan in a convenient and natural way. 
+</p>
+
+<p>
+	Using point and click user interface, intuitive component editor, predefined sample dialplans and context sensitive help, new dialplan can be built and maintained quickly and easily.
+</p>
+
+<p>
+	Visual Dialplan brings easy of use and comfort of a modern Rapid Application Development platform into the world of Elastix without sacrificing functionality of a standard Elastix dialplan.
+</p>
+
+</body>
+</html>

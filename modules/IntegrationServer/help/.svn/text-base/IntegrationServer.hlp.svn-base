@@ -1,0 +1,28 @@
+<html>
+<header>
+  <link rel="stylesheet" href="/themes/{$THEMENAME}/styles.css">
+  <link rel="stylesheet" href="/themes/{$THEMENAME}/help.css">
+</header>
+<body>
+<h1>{$node_name}</h1>
+
+<p>
+	Integration Server (IS) is powerful application server that extends Elastix dial plan functionality and Visual Dialplan. 
+</p>
+
+<br/>
+
+<p>
+	It is specially designed to simplify working with third party servers (database servers, email servers etc.) and services from within the Elastix dial plan.  
+</p>
+
+<p>
+	Integration Server comes with support for Visual Dialplan building blocks that provide intuitive interface to easily access those third party servers and service, like execute SQL queries on a remote database server (MS SQL, MySQL, Postgres etc.), send emails and more, directly from within the dial plan.
+</p>
+
+<p>
+	It also extends Visual Dialplan with fully featured SQL query editor and email editor.
+</p>
+
+</body>
+</html>
