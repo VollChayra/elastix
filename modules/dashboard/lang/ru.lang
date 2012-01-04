@@ -1,0 +1,146 @@
+<?php
+/* vim: set expandtab tabstop=4 softtabstop=4 shiftwidth=4:
+  Codificación: UTF-8
+  +----------------------------------------------------------------------+
+  | Elastix version 0.5                                                  |
+  | http://www.elastix.org                                               |
+  +----------------------------------------------------------------------+
+  | Copyright (c) 2006 Palosanto Solutions S. A.                         |
+  +----------------------------------------------------------------------+
+  | Cdla. Nueva Kennedy Calle E 222 y 9na. Este                          |
+  | Telfs. 2283-268, 2294-440, 2284-356                                  |
+  | Guayaquil - Ecuador                                                  |
+  | http://www.palosanto.com                                             |
+  +----------------------------------------------------------------------+
+  | The contents of this file are subject to the General Public License  |
+  | (GPL) Version 2 (the "License"); you may not use this file except in |
+  | compliance with the License. You may obtain a copy of the License at |
+  | http://www.opensource.org/licenses/gpl-license.php                   |
+  |                                                                      |
+  | Software distributed under the License is distributed on an "AS IS"  |
+  | basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See  |
+  | the License for the specific language governing rights and           |
+  | limitations under the License.                                       |
+  +----------------------------------------------------------------------+
+  | The Original Code is: Elastix Open Source.                           |
+  | The Initial Developer of the Original Code is PaloSanto Solutions    |
+  +----------------------------------------------------------------------+
+  $Id: ru.lang,v 1.6 2007/09/05 00:36:42 gcarrillo Exp $ */
+global $arrLangModule;
+$arrLangModule=array(
+/*System Info*/
+"System Resources" => "Системные ресурсы",
+"CPU Info" => "Процессор",
+"Uptime" => "Время работы системы",
+"CPU usage" => "Загрузка процессора",
+"Memory usage" => "Память",
+"Swap usage" => "Использование подкачки",
+"Hard Drives" => "Жеские диски",
+"Partition Name" => "Имя раздела",
+"Capacity" => "Объём",
+"Usage" => "Использование",
+"Mount point" => "Точка монтирования",
+"No records found" => "Записи не найдены",
+"It was not possible to obtain information about the graph" => "Невозможно получить сведения для графика",
+"% used of"=>"% использоовано",
+"News"=>"Новости",
+"prev"=>"Назад",
+"next"=>"Вперед",
+"show_vertical"=>"Показать вертикальную полосу прокрутки",
+"show_horizontal"=>"Показать горизонтальную полосу прокрутки",
+"NoConnection"=>"Нет соединения",
+"Performance Graphic"=>"График производительности",
+"Processes Status"=>"Состояние служб и сервисов",
+"Communication Activity"=>"Активность соединений",
+"Telephony Service"=>"Сервис IP-телефонии (Asterisk)",
+"Instant Messaging Service"=>"Сервис мгновенных сообщений (IM)",
+"Fax Service"=>"Сервис работы с факсами",
+"Email Service"=>"Почтовый сервер",
+"Database Service"=>"Сервер БД",
+"Web Server"=>"Web-сервер",
+"Elastix Call Center Service"=>"Модуль call-центра",
+"Running"=>"Работает",
+"Not installed"=>"Не установлен",
+"Not running"=>"Остановлен",
+"OK1" => "OK",
+"Shutdown" => "Отключен",
+"IAXModem Service" => "Сервис IAXModem",
+/*copiado desde el dashboard*/
+"You haven't extension" => "Не назначен внутренний номер.",
+"Imap: Connection error" => "Imap: Ошибка соединения.",
+"You don't recibed emails" => "Нет полученных почтовых сообщений",
+"You don't recibed faxes" => "Нет полученных факсов",
+"Query error" => "Ошибка запроса",
+"You don't recibed calls" => "Нет полученных вызовов",
+"You don't recibed voicemails" => "Нет сообщений голосовой почты",
+"Unenabled to open file" => "Невозможно открыть файл",
+"Dashboard" => "Панель инструментов",
+"Calls" => "Вызовы",
+"Emails" => "Почтовые сообщения",
+"Faxes" => "Факсы",
+"Voicemails" => "Голосовые сообщения",
+"answered" => "<font color='green'><b>Вход.</b></font>",
+"missed" => "<font color='red'><b>Проп.</b></font>",
+"unknow" => "<b>неизв</b>",
+"call record" => "{status} вызов от {source} {date}. ",
+"call duration" => "Длительность {time} с",
+"fax recived" => "Получен факс {file} от {source} {date}.",
+"voicemail recived" => "Голосовое сообщение от {source} {date}. Длительность {duration} с",
+"mail recived" => "{date} {source} '{subject}'",
+"Quota asigned" => "Объем:",
+"Quota Used" => "Использовано:",
+"Quota free space" => "Свободно:",
+"Error at read yours calls." => "Ошибка доступа к списку вызовов.",
+"Error at read yours faxes." => "Ошибка доступа к списку факсов.",
+"Error at read yours voicemails." => "Ошибка доступа к списку голосовых сообщений.",
+"Error at read yours mails." => "Ошибка доступа к списку почтовых сообщений.",
+"Error at read status system." => "Ошибка доступа к состоянию системы.",
+"Error at read your calendar." => "Ошибка доступа к календарю.",
+"You don't have events" => "Отсутствуют события в календаре",
+"You don't have a webmail account" => "Нет ассоциированных учетных записей электронной почты.",
+"Calendar" => "Календарь",
+"Expand" => "Развернуть",
+"Collapse" => "Свернуть",
+"Error when connecting to Asterisk Manager" => "Ошибка при подключении к AMI",
+"Total_calls" => "Вызовы",
+"internal_calls" => "внутренние",
+"external_calls" => "внешние",
+"total_channels" => "Каналы",
+"call" => "вызов",
+"calls" => "",
+"channels" => "каналов",
+"Applet Admin" => "Апплет администрирования",
+"Applet" => "Апплет",
+"Activated" => "Активен",
+"Queues_waiting" => "Звонков в очереди",
+"Waiting" => "в ожидании",
+"asterisk_connection" => "соединение с asterisk",
+"sip_extensions" => "Устройства SIP",
+"sip_trunks" => "SIP транки",
+"iax_extensions" => "Устройства IAX",
+"iax_trunks" => "IAX транки",
+"Extensions" => "Устройства",
+"Trunks" => "Транки",
+"Trunks_register" => "включено",
+"sip_trunks_reg" => "SIP транков",
+"iax_trunks_reg" => "IAX транков",
+"OK" => "включено",
+"NO_OK" => "отключено",
+"Network_traffic" => "Сетевой траффик",
+"rx_bytes" => "байт получено",
+"tx_bytes" => "байт отправленно ",
+"Telephony Hardware" => "Оборудование телефонии",
+"Registered" => "Зарег-ано",
+"No Registered" => "Не зарег-ано",
+"Cards no found" => "Оборудование телефонии не найдено",
+"Bytes" => "байт",
+"Unknown" => "Неизвестно",
+"Loading" => "Загрузка",
+"Could not get web server information. You may not have internet access or the web server is down" => "Не могу соединиться с web-сервером. Отсутствует доступ к Internet или сервер недоступен",
+"No News to display" => "Новости отсутствуют",
+"Nothing to show yet" => "Нет новых новостей",
+"does not exist locally or password is incorrect" => "не существует или неверный пароль",
+"The following database could not be found" => "Указанная база данных не найдена",
+"Error, the following code does not exist" => "Указанный код не существует"
+);
+?>
